@@ -1,0 +1,133 @@
+body {
+    background:url(beeautiful-sunset-illustration-1212023.webp);
+    background-size: cover;
+    margin:0;
+    font-family:tahoma;
+}
+
+nav {
+    background: #000000; 
+                background: -moz-linear-gradient(45deg, #000000 0%, #212121 25%, #7c7c7c 50%, #d4d4d4 75%, #262626 100%); 
+                background: -webkit-linear-gradient(45deg, #000000 0%, #212121 25%, #7c7c7c 50%, #d4d4d4 75%, #262626 100%); 
+                background: linear-gradient(45deg, #000000 0%, #212121 25%, #7c7c7c 50%, #d4d4d4 75%, #262626 100%); 
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    padding:1px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color:white;
+}
+
+nav a:hover:after {
+    background:darkred;
+    color:red;
+    content:"DON'T CLICK";
+}
+
+header {
+    margin:50px 200px;
+    background:transparent;
+    border-radius:50px;
+    backdrop-filter: blur(20px);
+    width:400px;
+    box-shadow:2px 2px 10px #f1f1f1;
+    border:2px solid rgba(255,255,255,0.5);
+}
+
+header:hover {
+    transform: scale(1.07);
+    transition: 0.3s;
+}
+
+video{
+    margin:50px 200px;
+    background:transparent;
+    border-radius:50px;
+    backdrop-filter: blur(20px);
+    width:400px;
+    box-shadow:2px 2px 10px #f1f1f1;
+    border:2px solid rgba(255,255,255,0.5);
+}
+
+.num input[type=text] {
+    border-radius:20px;
+    margin:25px 0;
+    width:350px;
+    text-align: center;
+    font-size:40px;
+    border:2px solid rgba(255,255,255,0.5);
+    background:transparent;
+    color:rgb(255, 255, 255);
+    backdrop-filter: blur(50px);
+}
+
+.pss input[type=password] {
+    width:350px;
+    font-size:30px;
+    background:transparent;
+    color:rgb(255, 255, 255);
+    backdrop-filter: blur(50px);
+    border-radius:30px;
+    border:2px solid rgba(255,255,255,0.5);
+    text-align: center;
+}
+
+.pss input[type=text] {
+    width:350px;
+    font-size:30px;
+    background:transparent;
+    color:rgb(255, 255, 255);
+    backdrop-filter: blur(50px);
+    border-radius:30px;
+    border:2px solid rgba(255,255,255,0.5);
+    text-align: center;
+}
+
+header button[type=button] {
+    width:150px;
+    height:50px;
+    text-align: center;
+    border-radius:20px;
+    border: 2px solid rgba(255,255,255,0.5);
+    font-weight: bold;
+    margin:25px;
+    backdrop-filter: blur(50px);
+    background:transparent;
+    color:#ffffff;
+}
+
+header button[type=button]:hover {
+    background:rgba(34, 207, 255, 0.418);
+    color:rgb(255, 255, 255);
+}
+
+.check input[type=checkbox] {
+    background:black;
+    border:2px solid #ccc;
+    color:#ccc;
+}
+
+.check {
+    color:rgb(255, 255, 255);
+    font-size:15px;
+    font-weight:bold;
+    background:transparent;
+    backdrop-filter: blur(50px);
+    border:2px solid rgba(255,255,255,0.5);
+    width:107px;
+    margin:10px 0;
+    border-radius:5px;
+    height:25px;
+}
+
+.ans p {
+    color:white; 
+    font-size:25px; 
+    font-weight:bold;
+    margin:0 10px;
+}
+
+::placeholder {
+    color:#f1f1f1;
+}
