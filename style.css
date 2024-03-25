@@ -131,3 +131,30 @@ header button[type=button]:hover {
 ::placeholder {
     color:#f1f1f1;
 }
+
+@media only screen and (max-width: 360px) {
+    header {
+        margin:50px 200px;
+        position:absolute;
+        top:500px;
+         left:100px;
+        background:transparent;
+        border-radius:50px;
+        backdrop-filter: blur(20px);
+        width:400px;
+        transform: scale(2);
+        box-shadow:2px 2px 10px #f1f1f1;
+        border:2px solid rgba(255,255,255,0.5);
+    }
+    
+    header:hover {
+        transform: scale(2.07);
+        transition: 0.3s;
+    }
+
+    nav a {
+        text-decoration: none;
+        font-size:50px;
+        color:white;
+    }
+  }
