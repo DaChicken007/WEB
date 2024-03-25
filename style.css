@@ -140,6 +140,26 @@ header button[type=button]:hover {
     color:#f1f1f1;
 }
 
+.box {
+    background:black;
+    display:block;
+    width:280px;
+    color:#f1f1f1;
+    text-decoration:none;
+    padding:10px 0;
+    border-radius:30px;
+    box-shadow: 0 5px 10px black;
+}
+
+.box a {
+    text-decoration: none;
+    font-size:35px;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
 
 
 
